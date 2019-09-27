@@ -16,7 +16,7 @@ node {
             } 
     }
     
-    stag('Run/Deploy Docker Container '){
+    stage('Run/Deploy Docker Container '){
     sh 'docker run -d -p 80:80 .'  
     }
     
